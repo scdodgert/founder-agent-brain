@@ -12,34 +12,122 @@
 
   "intents": {
     "idea": [
-      "business idea", "ideas", "start a business", "what should i start",
-      "i want to start something", "give me a business", "saas idea",
-      "startup idea", "new idea", "find idea"
+      "business idea",
+      "ideas",
+      "start a business",
+      "what should i start",
+      "i want to start something",
+      "give me a business",
+      "saas idea",
+      "startup idea",
+      "new idea",
+      "find idea"
     ],
-
     "plan": [
-      "how do i start", "next step", "what do i do next",
-      "how to get customers", "plan", "steps", "roadmap",
-      "execution plan", "strategy plan"
+      "how do i start",
+      "next step",
+      "what do i do next",
+      "how to get customers",
+      "plan",
+      "steps",
+      "roadmap",
+      "execution plan",
+      "strategy plan"
     ],
-
     "market": [
-      "market", "niche", "what do they need", "who buys",
-      "opportunity in", "demand for", "target audience",
-      "market research", "competitors"
+      "market",
+      "niche",
+      "what do they need",
+      "who buys",
+      "opportunity in",
+      "demand for",
+      "target audience",
+      "market research",
+      "competitors"
     ],
-
     "profit": [
-      "profitable", "profit", "margin", "how much can i make",
-      "is this worth it", "roi", "return", "net profit",
-      "after tax", "money"
+      "profitable",
+      "profit",
+      "margin",
+      "how much can i make",
+      "is this worth it",
+      "roi",
+      "return",
+      "net profit",
+      "after tax",
+      "money"
     ],
-
     "taxview": [
-      "tax", "write off", "deduction", "llc", "s corp", "c corp",
-      "business expenses", "how do taxes work", "can i deduct",
-      "tax strategy", "taxes"
+      "tax",
+      "write off",
+      "deduction",
+      "llc",
+      "s corp",
+      "c corp",
+      "business expenses",
+      "how do taxes work",
+      "can i deduct",
+      "tax strategy",
+      "taxes"
     ],
-
     "analyze": [
-      "is this a good business", "is this worth it", "analyze",
+      "is this a good business",
+      "is this worth it",
+      "analyze",
+      "break down",
+      "business model",
+      "unit economics",
+      "analyze this",
+      "evaluate this"
+    ],
+    "mindset": [
+      "stuck",
+      "lost",
+      "don't know",
+      "idk",
+      "confused",
+      "overwhelmed",
+      "no idea",
+      "help me think"
+    ],
+    "founder": [
+      "build me a saas",
+      "find a b2b saas",
+      "make money for me",
+      "autonomous founder",
+      "build mvp",
+      "find one strong business idea",
+      "make 20000 a month",
+      "make 50000 a month",
+      "start research",
+      "top idea",
+      "founder mode"
+    ]
+  },
+
+  "modes": {
+    "power_mode": "maximum",
+    "build_phase_model": "gpt-4.1-or-claude-3.7",
+    "maintenance_phase_model": "gpt-4.1-mini-or-haiku",
+    "notes": "Use maximum power models during research + MVP build. Switch to cheaper models after deployment."
+  },
+
+  "founder_mission": {
+    "goal": "Create a single high-profit B2B SaaS capable of generating $20,000–$50,000/month with minimal human involvement.",
+    "constraints": [
+      "Low startup cost",
+      "Low competition",
+      "Strong recurring revenue potential",
+      "Human approval required for major purchases or irreversible actions"
+    ],
+    "phases": [
+      "market_research",
+      "idea_selection",
+      "validation",
+      "mvp_design",
+      "mvp_build_plan",
+      "deployment_plan",
+      "marketing_assets"
+    ]
+  }
+}
